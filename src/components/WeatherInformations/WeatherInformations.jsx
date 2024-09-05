@@ -1,5 +1,5 @@
 import React from "react";
-import './Weatherinformations.css'; 
+import './WeatherInformations.css'; 
 
 function WeatherInformations({ weather }) {
   if (!weather || !weather.weather || !weather.weather[0]) {
